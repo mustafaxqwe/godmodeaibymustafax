@@ -1,0 +1,11 @@
+{
+  "framework": "nextjs",
+  "redirects": [
+    { "source": "/src/(.*)", "destination": "/", "permanent": false },
+    { "source": "/.env", "destination": "/", "permanent": false },
+    { "source": "/Dockerfile(.*)", "destination": "/", "permanent": false },
+    { "source": "/docker-compose(.*)", "destination": "/", "permanent": false },
+    { "source": "/tsconfig(.*)", "destination": "/", "permanent": false },
+    { "source": "/API.md", "destination": "/", "permanent": false }
+  ]
+}
